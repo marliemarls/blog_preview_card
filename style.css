@@ -11,7 +11,7 @@ body {
   display: flex;
   font-family: "Figtree", sans-serif;
   flex-direction: column;
-  padding: 50px 0px 50px 0px;
+  padding: 150px 0px 50px 0px;
   justify-content: center;
   align-items: center;
   background-color: hsl(47, 88%, 63%);
@@ -48,6 +48,10 @@ div.card {
 h2.hoover-color-change{
     font-weight: 800;
     font-style: normal;
+}
+h2:hover{
+  color:  hsl(47, 88%, 63%);
+  cursor: pointer;
 }
 
 div.profile-div {

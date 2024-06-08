@@ -14,12 +14,12 @@ This is my solution to the Blog Preview Card challenge on Frontend Mentor.
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](/assets/images/Screenshot_7-6-2024_203214_localhost.jpeg)
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/marliemarls/qr_code_component)
-- Live Site URL: [Live Site](https://marliesolutionforqrchallenge.netlify.app/)
+- Solution URL: [Solution](https://github.com/marliemarls/blog_preview_card)
+- Live Site URL: [Live Site](https://marliesblogpreviewcard.netlify.app/)
 
 
 ### Built with

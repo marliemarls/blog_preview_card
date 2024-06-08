@@ -1,8 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+/* .figtree {
+    font-family: "Figtree", sans-serif;
+
+    font-weight: 500 or 800;
+    font-style: normal;
+} */
+
 body {
   display: flex;
+  font-family: "Figtree", sans-serif;
   flex-direction: column;
-  /* width: 1440px; */
-  padding: 218.5px 0px 219.5px 0px;
+  padding: 50px 0px 50px 0px;
   justify-content: center;
   align-items: center;
   background-color: hsl(47, 88%, 63%);
@@ -10,42 +19,70 @@ body {
 
 div.card {
   display: flex;
-  width: 384px;
+  width: 340px;
   padding: 24px;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  /* gap: 24px; */
   flex-shrink: 0;
   border: 1pt black solid;
   border-radius: 10pt;
   background-color: hsl(0, 0%, 100%);
-  box-shadow: 10px 10px;
+  box-shadow: 15px 15px;
 }
 
-div.text-div {
+.learning-tag {
+  width: 75px;
+  height: 23px;
+  background-color: hsl(47, 88%, 63%);
+  border: 1pt;
+  border-radius: 5pt;
+  margin: 8px 0px 0px 0px;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 12px;
-  align-self: stretch;
+  padding: 4px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+h2.hoover-color-change{
+    font-weight: 800;
+    font-style: normal;
 }
 
 div.profile-div {
   display: flex;
+  flex-direction: row;
   align-items: center;
-  gap: 12px;
+  justify-content: space-evenly;
+  margin-right: 65%;
 }
 
+.greg-header {
+  display: flex;
+  font-weight: 800;
+  font-style: normal;
+}
 img.profile-img {
+  display: flex;
+  margin-right: 5pt;
   width: 32px;
   height: 32px;
 }
 
 img.illustration-img {
-  gap: 12px;
   border-radius: 10pt;
+  image-rendering: auto;
 }
 
-div.attribution{
-    
+div.attribution {
+  display: inline-block;
+  margin-top: 50pt;
+  background-color: antiquewhite;
+}
+
+p{
+    font-weight: 500;
+    color: hsl(0, 0%, 50%);
+    font-style: normal;
 }
